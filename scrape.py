@@ -2,7 +2,6 @@ import asyncio
 from selenium.webdriver import Firefox, FirefoxOptions
 from atom import Atom
 from typing import AsyncIterator
-from returns.maybe import Maybe
 
 
 def create_firefox_driver() -> Firefox:

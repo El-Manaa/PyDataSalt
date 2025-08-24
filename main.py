@@ -1,5 +1,5 @@
 import asyncio
-from scrape import scrape, create_firefox_driver, get_one_atom, value_by_xpath, go_to_element
+from scrape import scrape, create_firefox_driver
 from dbc import connect, write_data
 
 
